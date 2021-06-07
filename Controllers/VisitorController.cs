@@ -1,15 +1,11 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace Louis_Philippe_Loeckx_PartyMVC.Models
 {
     public class VisitorController : Controller
     {
-        //List<Visitor> visitors = new List<Visitor>();
-
+        [HttpGet]
         public IActionResult Input()
         {
             TempData["Visitors"] = 0;

@@ -8,8 +8,6 @@ namespace Louis_Philippe_Loeckx_PartyMVC.Models
 {
     public class Visitor
     {
-        public int Id { get; set; }
-
         [Required]
         public string FirstName { get; set; }
 
@@ -40,10 +38,5 @@ namespace Louis_Philippe_Loeckx_PartyMVC.Models
         [Required]
         public bool IsFamily { get; set; }
 
-        public Visitor() 
-        {
-            Id++;
-        }       
-        
     }
 }

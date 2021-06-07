@@ -1,4 +1,3 @@
-using System;
 
 namespace Louis_Philippe_Loeckx_PartyMVC.Models
 {
